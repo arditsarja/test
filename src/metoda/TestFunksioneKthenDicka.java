@@ -7,6 +7,10 @@ public class TestFunksioneKthenDicka {
         return "Pershendetje " + emer;
     }
 
+    public static String thuajPershdendetje() {
+        return "Pershendetje te gjithe";
+    }
+
     public static String thuajMirupafshim(String emer) {
         return "Mirupafshim " + emer;
     }
@@ -18,6 +22,7 @@ public class TestFunksioneKthenDicka {
 
     public static void main(String[] args) {
         System.out.println(thuajPershdendetje("Beni"));
+        System.out.println(thuajPershdendetje());
         System.out.println(thuajMirupafshim("Arta"));
         System.out.println(gjejShumen(5.3, 9));
     }
