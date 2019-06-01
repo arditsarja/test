@@ -1,4 +1,4 @@
-package Klasa;
+package KlasaESakte;
 
 public class Test {
 
@@ -20,17 +20,10 @@ public class Test {
 
 
         punonjes.setEmer("Ardit");
-        punonjes.mbiemer = "Sarja";
-        punonjes.mosha = -25;
+        punonjes.setMbiemer("");
         punonjes.setKompania("ATC");
-
-
-        System.out.println(punonjes.getEmer());
-        System.out.println(punonjes.getMbiemer());
-        System.out.println(punonjes.getMosha());
-        System.out.println(punonjes.getKompania());
-
         punonjes.setMosha(-25);
+
 
         System.out.println(punonjes.getEmer());
         System.out.println(punonjes.getMbiemer());
